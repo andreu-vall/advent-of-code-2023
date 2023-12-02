@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import java.util.Arrays;
+//import java.util.Arrays;
 import java.util.Map;
 import java.util.HashMap;
 
@@ -50,5 +50,6 @@ class MyClass {
         }
         System.out.println(answer1); //199 too low
         System.out.println(answer2);
+        sc.close();
     }
 }
