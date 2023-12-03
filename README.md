@@ -8,6 +8,11 @@ Day Solution            | Language                         | Year | Score | Comm
 [02.java](src/02.java)  | [Java](#02-java)                 | 1995 |   7   | Useful as a language, but why the ; ?
 [03.c](src/03.c)        | [C](#03-c)                       | 1972 |   4   | Doesn't have built-in essentials: classes and hashes
 
+Done: Javascript, Java, C
+Relevant: Bash, SQL, Scala?, Perl?, Swift, Ruby, Julia, PHP..., R, Rust, Go, Kotlin, C#, Typescript, C++, Python (that makes 19)
+New ones: ???
+
+
 ## 01. Javascript
 ```
 Get-Content inputs/01.txt | node src/01.js
