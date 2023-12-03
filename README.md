@@ -6,7 +6,7 @@ Day Solution            | Language                         | Year | Score | Comm
 ------------------------|----------------------------------|------|-------|----------------------------------------------------
 [01.js](src/01.js)      | [Javascript](#01-javascript)     | 1995 |   7   | Too permissive and weird, but it's ok
 [02.java](src/02.java)  | [Java](#02-java)                 | 1995 |   7   | Useful as a language, but why the ; ?
-[03.c](src/03.c])       | [C](#03-c)                       | 1972 |   4   | Doesn't have built-in essentials: classes and hashes
+[03.c](src/03.c)        | [C](#03-c)                       | 1972 |   4   | Doesn't have built-in essentials: classes and hashes
 
 ## 01. Javascript
 ```
