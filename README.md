@@ -9,10 +9,11 @@ Day Solution            | Language                         | Year | Score | Comm
 [03.c](src/03.c)        | [C](#03-c)                       | 1972 |   5   | Doesn't have built-in essentials: classes and hashes
 [04.sh](src/04.sh)      | [Bash](#04-bash)                 | 1989 |   6   | Useful for doing some simple things
 
-Done: Javascript, Java, C, Bash
-Relevant: SQL, Scala?, Perl?, Swift, Ruby, Julia, PHP..., R, Rust, Go, Kotlin, C#, Typescript, C++, Python (that makes 19)
-New ones: ???
-
+- Done: Javascript, Java, C, Bash
+- Relevant: SQL, Scala?, Perl?, Swift, Ruby, Julia, PHP..., R, Rust, Go, Kotlin, C#, Typescript, C++, Python (that makes 19)
+- New ones: ???
+- All years: https://github.com/andreu-vall/advent-of-code
+- Our particular leaderboard: https://advent-of-code-leaderboard.herokuapp.com/
 
 ## 01. Javascript
 ```
