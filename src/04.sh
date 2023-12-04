@@ -1,9 +1,12 @@
 #!/bin/bash
+
 part1=0
 cardsNumber=0
 scratchcardsCount=()
 while IFS= read -r line; do
-    myArray=()
+    #myArray=()
+    unset mySet # The set is not cleared by default
+    declare -A mySet
     separator=false
     matchingCount=0
     wordCount=0
@@ -18,16 +21,21 @@ while IFS= read -r line; do
             separator=true
         else
             if [ "$separator" == false ]; then
-                myArray+=("$word")
+                mySet[$word]=1
+                #myArray+=("$word")
             else
-                for numb in "${myArray[@]}"; do
-                    if [ $numb -eq $word ]; then
-                        matchingCount=$((matchingCount + 1))
-                    fi
-                done
+                if [ ${mySet[$word]} ]; then
+                    matchingCount=$((matchingCount + 1))
+                fi
+                # for numb in "${myArray[@]}"; do
+                #     if [ $numb -eq $word ]; then
+                #         matchingCount=$((matchingCount + 1))
+                #     fi
+                # done
             fi
         fi
     done
+    #echo "matchingCount: $matchingCount"
     if [ $matchingCount -eq 0 ]; then
         matchingExponent=0
     else

@@ -7,7 +7,7 @@ Day Solution            | Language                         | Year | Score | Comm
 [01.js](src/01.js)      | [Javascript](#01-javascript)     | 1995 |   7   | Too permissive and weird, but it's ok
 [02.java](src/02.java)  | [Java](#02-java)                 | 1995 |   7   | Useful as a language, but why the ; ?
 [03.c](src/03.c)        | [C](#03-c)                       | 1972 |   5   | Doesn't have built-in essentials: classes and hashes
-[04.sh](src/04.sh)      | [Bash](#04-bash)                 | 1989 |   6   | Useful for doing some simple things
+[04.sh](src/04.sh)      | [Bash](#04-bash)                 | 1989 |   6   | Useful for doing some simple things but so slow
 
 - Done: Javascript, Java, C, Bash
 - Relevant: SQL, Scala?, Perl?, Swift, Ruby, Julia, PHP..., R, Rust, Go, Kotlin, C#, Typescript, C++, Python (that makes 19)
@@ -32,6 +32,7 @@ Get-Content inputs/03.txt | ./a.exe
 ```
 
 ## 04. Bash
+5.0.17(1)-release
 ```
 wsl
 cat inputs/04.txt | bash src/04.sh
