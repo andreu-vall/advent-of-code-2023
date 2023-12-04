@@ -37,3 +37,7 @@ Get-Content inputs/03.txt | ./a.exe
 wsl
 cat inputs/04.txt | bash src/04.sh
 ```
+
+<!--
+; between instructionsif I want to execute everything as only 1 instruction
+-->

@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
+//#include <glib.h> //I tried to include a library with a builtin
+//hashmap, but it looks like a pain to install it on windows.
+//I'm using gcc 11.2.0 installed on C:\cygwin64\bin\gcc.exe
 #define BIG_NUMBER 150
 
 //LOL C doesn't have classes nor hashmaps
@@ -59,7 +62,6 @@ int main() {
                 //I found a number
                 int jInicial = j;
                 int number = lines[i][j] - '0';
-                //Point* adjacentStars = malloc(sizeof(Point) * BIG_NUMBER); //La primera i la última he de buscar-ne més
                 int valid = has_neighbour_symbol(lines, i, j, numLines, lineLength);
                 while (j+1 < lineLength && lines[i][j+1] >= '0' && lines[i][j+1] <= '9') {
                     j += 1;
@@ -99,3 +101,13 @@ int main() {
     free(lines);
     return 0;
 }
+
+/*
+If I wanted to install glib on windows, I would have to:
+
+Open cygwin terminal and type: "setup-x86_64.exe"
+Search for "libglib2.0-devel", select it and install it
+
+Then, to compile, I would have to type:
+gcc your_program.c `pkg-config --cflags --libs glib-2.0`
+*/
