@@ -10,10 +10,21 @@ Day Solution            | Language                         | Year | Score | Comm
 [04.sh](src/04.sh)      | [Bash](#04-bash)                 | 1989 |   6   | Useful for doing some simple things but so slow
 
 - Done: Javascript, Java, C, Bash
-- Relevant: SQL, Scala?, Perl?, Swift, Ruby, Julia, PHP..., R, Rust, Go, Kotlin, C#, Typescript, C++, Python (that makes 19)
-- New ones: ???
+- Relevant: Scala?, Perl?, Swift, Ruby, Julia, PHP, Rust, Go, Kotlin, C#, C++, Python (that makes 19)
+- Not general purpose programming languages: SQL, R?
+- Domain Specificlanguages: HTML, VHDL, MATLAB, Mathematica, SQL, GameMakerLanguage
+- Scripting Languages: AWK, Bash, Perl, Lisp, Power Shell, Ruby
+- Typescript????
+- New ones: Haskell, Prolog ???
 - All years: https://github.com/andreu-vall/advent-of-code
 - Our particular leaderboard: https://advent-of-code-leaderboard.herokuapp.com/
+
+
+A scripting language or script language is a programming language that is used to manipulate, customize, and automate the facilities of an existing system. Scripting languages are usually interpreted at runtime rather than compiled.
+
+A command language is a language for job control in computing. It is a domain-specific and interpreted language; common examples of a command language are shell or batch programming languages.
+
+Bash is not a programming language, it is a command-line interpreter. Bash is a software replacement for the original Bourne shell.
 
 
 ## 00. System specs
